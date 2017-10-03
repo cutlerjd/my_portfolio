@@ -2,6 +2,7 @@ baseURL = "http://jasecutler.com/"
 languageCode = "en-us"
 title = "Jase Cutler - Web Developer - Portfolio"
 theme = "hugo-agency-theme"
+publishDir = "docs"
 
 [params]
 name = "Jase Cutler"
