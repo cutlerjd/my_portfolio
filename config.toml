@@ -1,3 +1,163 @@
-baseURL = "http://example.org/"
+baseURL = "http://jasecutler.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Jase Cutler - Web Developer - Portfolio"
+theme = "hugo-agency-theme"
+
+[params]
+name = "Jase Cutler"
+description = "Junior Web Developer"
+favicon = "favicon.ico"
+disableFonts = false
+# 404 error customization
+[params.error404]
+heading = "Page couldn't be found"
+text = "Please visit [this page](/)"
+
+[params.navigation]
+brand = "Jase Cutler"
+# Optional logo as brand stored in img/
+#logo = "logo.svg"
+services = "Skills"
+portfolio = "Portfolio"
+about = "About Me"
+Team = "Contact"
+
+[params.hero]
+# To change the background image of the hero, replace 'header-bg.jpg' in
+# the 'static/img' folder.
+title = "Jase Cutler"
+subtitle = "Jr Web Developer"
+buttonText = "More"
+
+[params.services]
+enable = true
+title = "Skills"
+
+[[params.services.row]]
+
+[[params.services.row.list]]
+      icon = "fa-file-code-o"
+      title = "Full Stack Development"
+      description = "Experience building web sites and web applications. Foundational skills with HTML, CSS, and Javascript. Front-End experience building web apps using React and Redux, as well as building Back-Ends with Express, Node.js and MySQL."
+
+[[params.services.row.list]]
+      icon = "fa-server"
+      title = "IT Experience"
+      description = "Multiple years experience in the IT field managing servers, Splunk application delivery, and working on technical teams."
+
+[[params.services.row.list]]
+      icon = "fa-gears"
+      title = "New Technologies"
+      description = "Values educational experiences and training. Earned bachelors degree in Information Systems, certifications in Splunk, and attend local MeetUp groups for Ansible and Docker."
+
+
+
+# Portfolio section
+[params.portfolio]
+    enable = true
+    # All projects defined in their own files. You can find example projects
+    # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+    # at the root of this Hugo site.
+    # For more informtion take a look at the README.
+    title = "Portfolio"
+    #subtitle = "Lorem ipsum dolor sit amet consectetur."
+
+    [params.portfolio.modal]
+      client = "Client"
+      # date = "Date"
+      category = "Category"
+      buttonText = "Close project"
+
+    # About section
+  [params.about]
+    enable = true
+    title = "About Me"
+    #subtitle = ""
+    endpoint = "<br/>FIN.</br>"
+
+    # The events will be listed from the top to the bottom.
+    # All images are stored under 'static/img/about'.
+    # Replace them with your own.
+    [[params.about.events]]
+      img = "uvu_ponds.jpg"
+      date = "2010 - 2011"
+      title = "College and IT Helpdesk"
+      description = "Worked on Utah Valley University's Tier 1 help desk while starting my degree in Information Systems."
+
+    [[params.about.events]]
+      img = "VegasSign.jpg"
+      date = "2012"
+      title = "Vegas Bound"
+      description = "My partner's career brought me to Sin City. My education continued online and my IT career started at Nevada Beverage managing their desktops and server backups."
+
+    [[params.about.events]]
+      img = "camry.jpg"
+      date = "2013 - 2014"
+      title = "Commute from hell"
+      description = "In order to finish my degree, I needed to attend classes in Utah, but my partner needed to be in Vegas. I put 40k miles on an old Camry in less than a year, attending classes at UVU, working on-campus, and driving home to Vegas on the weekend."
+
+    [[params.about.events]]
+      img = "UNLV_Rebels_logo.svg.png"
+      date = "2014 - 2017"
+      title = "IT Career"
+      description = "Worked at a national title company supporting the Nevada region offices for all IT needs. <br/>Joined University of Nevada, Las Vegas to work in their NOC and manage their servers. Specialized in Splunk application management and used Splunk to solve clients' needs at UNLV."
+
+      [[params.about.events]]
+      img = "tiy.svg"
+      date = "2017"
+      title = "Web Development"
+      description = "With the itch to continue my learning, and gain skills beyond IT operations, I enrolled in The Iron Yard - Las Vegas in their full stack program. 16 grueling weeks of coding web apps and working on teams."
+
+# Team section
+  [params.team]
+    enable = true
+    # Possibility to center items
+    center = true
+    title = "Contact Info"
+    #subtitle = "How to get a hold of me."
+    description = "If you'd like to hire me or just grab a coffee to talk tech, please reach out to me!"
+
+    # All team member's pictures are stored under 'static/img/team'.
+    # Replace them with your own too.
+    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
+    [[params.team.members]]
+      img = "profile_pic.jpg"
+      name = "Jase Cutler"
+      position = "Jr Web Developer"
+      #reportsTo = "CTO"
+      livesIn = "[Las Vegas, Nevada](https://goo.gl/maps/PmEKyBtUmht)"
+      scope = [
+        "Full Stack Developer from [The Iron Yard](https://www.theironyard.com/)",
+        "Splunk Certified for [Splunk](https://splunk.com)",
+        "See my code at [GitHub.com](https://github.com/cutlerjd)"
+      ]
+      # For bio markdown and even multiline strings are available.
+      #bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.She worked at Pied Piper for years until they went belly up."""
+      social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/jasecutler/"],
+        ["fa-github", "https://github.com/cutlerjd"],
+        ["fa-twitter", "https://twitter.com/cutlerjd"],
+        ["fa-envelope-open-o", "mailto:jasecutler@gmail.com?Subject=Visitor%20from%20jasecutler.com"]
+      ]
+# Footer section
+  [params.footer]
+    enable = true
+
+    [[params.footer.social]]
+      icon = "fa-linkedin"
+      link = "https://www.linkedin.com/in/jasecutler/"
+
+    [[params.footer.social]]
+      icon = "fa-github"
+      link = "https://github.com/cutlerjd"
+
+    [[params.footer.social]]
+      icon = "fa-twitter"
+      link = "https://twitter.com/cutlerjd"
+
+    [[params.footer.social]]
+    icon = "fa-envelope-open-o"
+    link = "mailto:jasecutler@gmail.com?Subject=Visitor%20from%20jasecutler.com"
+
+
+    
