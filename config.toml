@@ -6,7 +6,7 @@ publishDir = "docs"
 
 [params]
 name = "Jase Cutler"
-description = "Junior Web Developer"
+description = "Web Developer"
 favicon = "favicon.ico"
 disableFonts = false
 # 404 error customization
@@ -27,7 +27,7 @@ Team = "Contact"
 # To change the background image of the hero, replace 'header-bg.jpg' in
 # the 'static/img' folder.
 title = "Jase Cutler"
-subtitle = "Jr Web Developer"
+subtitle = "Web Developer"
 buttonText = "More"
 
 [params.services]
@@ -116,7 +116,7 @@ title = "Skills"
     center = true
     title = "Contact Info"
     #subtitle = "How to get a hold of me."
-    description = "If you'd like to hire me or just grab a coffee to talk tech, please reach out to me!"
+    description = "If you'd like me to join your team or just grab a coffee to talk tech, please reach out to me!"
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
@@ -124,7 +124,7 @@ title = "Skills"
     [[params.team.members]]
       img = "profile_pic.jpg"
       name = "Jase Cutler"
-      position = "Jr Web Developer"
+      position = "Web Developer"
       #reportsTo = "CTO"
       livesIn = "[Las Vegas, Nevada](https://goo.gl/maps/PmEKyBtUmht)"
       scope = [
